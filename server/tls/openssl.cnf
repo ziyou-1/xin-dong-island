@@ -1,0 +1,9 @@
+[req]
+distinguished_name = req_distinguished_name
+x509_extensions = v3_req
+prompt = no
+[req_distinguished_name]
+CN = 116.62.19.158
+[v3_req]
+subjectAltName = IP:116.62.19.158
+basicConstraints = CA:true
